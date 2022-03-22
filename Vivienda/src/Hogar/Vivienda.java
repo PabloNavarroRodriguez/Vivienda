@@ -10,14 +10,14 @@ package Hogar;
  * @author Paqui Elena
  */
 public class Vivienda {
-
+/**Comentario de prueba*/
     /**
      * @return the precio
      */
+    /**Comentario de prueba*/
     protected double getPrecio() {
         return precio;
     }
-
     /**
      * @param precio the precio to set
      */
@@ -101,6 +101,8 @@ public class Vivienda {
     private String estado;
     private String propietario;
 
+    /**Comentario de prueba*/
+    
     public Vivienda(double precio, int numHabitaciones, double superficie, boolean parking, String estado, String propietario) {
         this.precio = precio;
         this.numHabitaciones = numHabitaciones;
